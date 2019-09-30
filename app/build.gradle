@@ -47,6 +47,7 @@ dependencies {
     implementation "com.android.support:design:$supportVersion"
     implementation "android.arch.lifecycle:extensions:$lifeCycleExtensionVersion"
     implementation "androidx.room:room-runtime:$roomVersion"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt "androidx.room:room-compiler:$roomVersion"
     implementation "androidx.room:room-ktx:$roomVersion"
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
